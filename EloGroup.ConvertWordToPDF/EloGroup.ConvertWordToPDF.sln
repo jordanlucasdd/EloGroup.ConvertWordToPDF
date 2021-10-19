@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EloGroup.ConvertWordToPDF", "EloGroup.ConvertWordToPDF", "{14F93E5B-162C-4988-B13E-DFD223B44C5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EloGroup.ConvertWordToPDF", "EloGroup.ConvertWordToPDF\EloGroup.ConvertWordToPDF.csproj", "{9F766C4D-49EE-4803-A390-97301588C6EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EloGroup.ConvertWordToPDF.Activities", "EloGroup.ConvertWordToPDF.Activities\EloGroup.ConvertWordToPDF.Activities.csproj", "{804A9858-5D93-4936-ABAF-8E485DDBFDCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EloGroup.ConvertWordToPDF.Activities.Design", "EloGroup.ConvertWordToPDF.Activities.Design\EloGroup.ConvertWordToPDF.Activities.Design.csproj", "{07BC7F89-000A-4C0B-BE76-7C3F59779BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{62BA530E-F8B9-41BB-BA87-44AEB844C1EE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{07bc7f89-000a-4c0b-be76-7c3f59779bb6}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{804a9858-5d93-4936-abaf-8e485ddbfdcc}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F766C4D-49EE-4803-A390-97301588C6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F766C4D-49EE-4803-A390-97301588C6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F766C4D-49EE-4803-A390-97301588C6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F766C4D-49EE-4803-A390-97301588C6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804A9858-5D93-4936-ABAF-8E485DDBFDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804A9858-5D93-4936-ABAF-8E485DDBFDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804A9858-5D93-4936-ABAF-8E485DDBFDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804A9858-5D93-4936-ABAF-8E485DDBFDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BC7F89-000A-4C0B-BE76-7C3F59779BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BC7F89-000A-4C0B-BE76-7C3F59779BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BC7F89-000A-4C0B-BE76-7C3F59779BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BC7F89-000A-4C0B-BE76-7C3F59779BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F766C4D-49EE-4803-A390-97301588C6EF} = {14F93E5B-162C-4988-B13E-DFD223B44C5F}
+		{804A9858-5D93-4936-ABAF-8E485DDBFDCC} = {14F93E5B-162C-4988-B13E-DFD223B44C5F}
+		{07BC7F89-000A-4C0B-BE76-7C3F59779BB6} = {14F93E5B-162C-4988-B13E-DFD223B44C5F}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {62BA530E-F8B9-41BB-BA87-44AEB844C1EE}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {62BA530E-F8B9-41BB-BA87-44AEB844C1EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F31B2CB8-6B30-47A8-9AC6-EBC5A3499B48}
+	EndGlobalSection
+EndGlobal
